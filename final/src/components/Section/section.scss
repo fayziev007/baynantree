@@ -1,0 +1,45 @@
+.text-box {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  // width: 680px;
+}
+.text-box h1 {
+  color: #8c886d;
+  padding: 1rem;
+  font-size: 39px;
+}
+.text-box p {
+  padding: 0.8rem;
+  color: #8c886d;
+  font-size: 20px;
+}
+.text-box button {
+  width: 150px;
+  height: 45px;
+}
+.sct-1{
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    //   width: 330px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    // width: 330px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    //   width: 330px;
+  }
+}

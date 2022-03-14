@@ -1,0 +1,78 @@
+.navbar-1 {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 1rem; */
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f1f1f1e5;
+  //   padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+nav h1 {
+  padding: 1.1rem;
+  font-size: 28px;
+  color: #8c886d;
+}
+.btn-box {
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 18px;
+  font-size: 20px;
+  color: #8c886d;
+}
+.btn {
+  background: rgb(163, 175, 142);
+  color: white;
+  width: 135px;
+  height: 45px;
+  border: solid 1px;
+  margin: 1rem;
+  border-radius: 2px;
+}
+// a:hover {
+//   color: rgb(0, 0, 0);
+// }
+a {
+  color: white;
+}
+.btn:hover {
+  background: rgb(94, 89, 82);
+  color: white;
+  transition: 1s;
+}
+@media screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+  .btn-box {
+    display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+  ul {
+    display: none;
+  }
+  .btn-box {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  ul {
+    display: none;
+  }
+  .btn-box {
+    display: none;
+  }
+}
